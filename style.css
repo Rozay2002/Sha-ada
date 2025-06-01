@@ -611,6 +611,13 @@ opacity: 0;
     color: var(--bg-color);
 }
 
+.service-box .jew img{
+    width: 130px;
+    height: 130px;
+    border: 2px solid var(--secon-bg-color);
+    border-radius: 50%;
+}
+
 
 /*location----------------*/
 .location {
@@ -648,6 +655,10 @@ opacity: 0;
 }
 
 .contant span{
+    color: var(--bg-color);
+}
+
+.contant h2{
     color: var(--bg-color);
 }
 
