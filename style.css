@@ -914,6 +914,13 @@ footer a i{
 
     .img-about img{
         width: 300px;
+        display: none;
+    }
+
+    .about .btn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .info-about1,.info-about2,.info-about3{
@@ -923,6 +930,8 @@ footer a i{
     .img-about p{
         font-size: 1rem;
     }
+
+
    
 }
 
