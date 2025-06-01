@@ -29,6 +29,26 @@ window.onscroll = () =>{
     navlist.classList.remove("open");
 }
 
+//welcome animation//
+
+
+const text = "Welcome to SHA-ADA AGRO Limited";
+const typedText = document.getElementById("typed-text");
+let charIndex = 0;
+
+function typeNextChar() {
+  if (charIndex < text.length) {
+    typedText.innerHTML += text.charAt(charIndex);
+    charIndex++;
+    setTimeout(typeNextChar, 150); // speed between letters (adjust as needed)
+  }
+}
+
+document.addEventListener("DOMContentLoaded", typeNextChar);
+
+
+
+
 
 
 

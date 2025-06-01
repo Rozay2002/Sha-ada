@@ -143,6 +143,15 @@ opacity: 0;
         color: #1d503a;;
     }
 
+    
+
+      #typed-text {
+        font-size: var(--big-font);
+        font-weight: 700;
+        color: #1d503a;;
+      }
+     
+
     .home-content p{
         color: #3f3e3e;
         line-height: 1.6;
