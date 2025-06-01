@@ -85,7 +85,7 @@ form.addEventListener('submit', function (e) {
 
 //parallax///////
 
-const observer = new IntersectionObserver((entries) =>{
+/*const observer = new IntersectionObserver((entries) =>{
     entries.forEach((entry) =>{
         if(entry.isIntersecting){
             entry.target.classList.add("show-items");
@@ -103,3 +103,4 @@ const observer = new IntersectionObserver((entries) =>{
 
  const scrollTop = document.querySelectorAll(".scroll-top");
  scrollTop.forEach((el)=>observer.observe(el));
+ */
