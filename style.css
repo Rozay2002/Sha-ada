@@ -861,6 +861,9 @@ footer a i{
     html{
         font-size: 80%;
     }
+    .home h1{
+        font-size: 30px;
+    }
     footer p{
         font-size: .6rem;
     } .fillter-buttons .btn{
