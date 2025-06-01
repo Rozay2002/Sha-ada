@@ -47,13 +47,6 @@ function typeNextChar() {
 document.addEventListener("DOMContentLoaded", typeNextChar);
 
 
-
-
-
-
-
-
-
 //sticky-navbar///////
 const header = document.querySelector('header');
 window.addEventListener("scroll",function(){
