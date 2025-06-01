@@ -864,6 +864,9 @@ footer a i{
     .home h1{
         font-size: 20px;
     }
+    .logo {
+        font-size: 20px;
+    }
     footer p{
         font-size: .6rem;
     } .fillter-buttons .btn{
