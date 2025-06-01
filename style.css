@@ -458,6 +458,27 @@ opacity: 0;
     border-radius: 10px;
 }
 
+.service-box img{
+    width: 130px;
+    height: 130px;
+    border: 2px solid var(--bg-color);
+    border-radius: 50%;
+}
+
+.service-box .fm img{
+    width: 130px;
+    height: 130px;
+    border: 2px solid var(--bg-color);
+    border-radius: 50%;
+}
+
+.service-box .vlsa img{
+    width: 130px;
+    height: 130px;
+    border: 2px solid var(--bg-color);
+    border-radius: 50%;
+}
+
 .service-btn{
     width: auto;
     justify-content: center;
@@ -485,6 +506,7 @@ opacity: 0;
 .service-box h3{
     margin-top: 10px;
     font-size: 1.5rem;
+    
 }
 
 .service-box p{
