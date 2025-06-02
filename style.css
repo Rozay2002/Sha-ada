@@ -302,9 +302,44 @@ opacity: 0;
         height: auto;
     }
     
+    /*CEO-SECTION................*/
+    .ceo{
+        min-height: 100vh;
+        height: 100%;
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        align-items: center;
+        grid-gap: 3em;
+    }
+    .ceo-content{
+        max-width: 600px;
+    }
     
+    .ceo-content h2{
+        font-size: var(--big-font);
+        font-weight: 600;
+        color: #1d503a;;
+    }
 
+    .coe-image{
+        position: relative;
+        
+    }
+    .img-boxx{
+        text-align: center;
+    }
+    
+    .img-boxx img{
+        width: 100%;
+        max-width: 400px;
+        height: auto;
+        border: 2opx solid var(--secon-bg-color);
+        border-radius: 100%;
+    }
 
+    
+    
 
     /*About Section..............................*/
 .about{
@@ -321,7 +356,7 @@ opacity: 0;
 }
 .about .img-about img{
     max-width: 300px;
-   height: auto;
+   height: 300px;
     border-radius: 100%;
 }
 
@@ -845,6 +880,9 @@ footer a i{
     .home-content{
         margin-top: 5rem;
     }
+    .ceo-content{
+        margin-top: 5rem;
+    }
     .social-icons{
         margin-top: 2rem;
     }
@@ -885,10 +923,19 @@ footer a i{
         grid-template-columns: 1fr;
         
     }
+
+    .ceo{
+        grid-template-columns: 1fr;
+        
+    }
+    .ceo-image
+    {
+        margin-bottom: 5rem;   
+    
+    }
     .home-image
     {
-        margin-bottom: 5rem;
-        
+        margin-bottom: 5rem;   
     
     }
     section{
